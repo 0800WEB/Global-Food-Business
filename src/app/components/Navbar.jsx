@@ -30,7 +30,7 @@ const Navbar = () => {
           <li className='text-3xl cursor-pointer'><ScrollLink onClick={toggleMenu} to="home" smooth={true} duration={500}>Home</ScrollLink></li>
           <li className='text-3xl cursor-pointer'><ScrollLink onClick={toggleMenu} to="about" smooth={true} duration={500}>About Us</ScrollLink></li>
           <li className='text-3xl cursor-pointer'><ScrollLink onClick={toggleMenu} to="products" smooth={true} duration={500}>Products</ScrollLink></li>
-          <li className='text-3xl'><a href="https://wa.link/2ybboi">Contact</a></li>
+          <li className='text-3xl'><a href="https://wa.link/n01x6v">Contact</a></li>
         </ul>
       </nav>
     </>

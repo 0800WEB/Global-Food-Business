@@ -28,7 +28,7 @@ export default function Home() {
       </header>
       <main className="flex min-h-screen flex-col items-center justify-between">
         <a
-          href="https://wa.link/2ybboi"
+          href="https://wa.link/n01x6v"
           className="fixed bottom-4 right-4 lg:right-32 z-10 text-white w-12 h-12 sm:w-24 sm:h-24 md:w-auto bg-[#27d045] rounded-full flex items-center md:h-auto md:px-4 md:py-2 md:gap-1"
         >
           <p className="hidden md:inline font-bold">Chat with us</p>
@@ -268,7 +268,7 @@ export default function Home() {
             </div>
             <a
               className="text-white text-md font-medium"
-              href="https://wa.link/2ybboi"
+              href="https://wa.link/n01x6v"
             >
               Contact
             </a>
