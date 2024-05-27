@@ -24,7 +24,7 @@ export default function Home() {
           href="https://wa.link/2ybboi"
           className="fixed bottom-4 right-4 z-10 text-white w-12 h-12 sm:w-24 sm:h-24 md:w-auto bg-[#27d045] rounded-full flex items-center md:h-auto md:px-4 md:py-2 md:gap-1"
         >
-          <p className="hidden md:inline font-bold">Chatea con nosotros</p>
+          <p className="hidden md:inline font-bold">Chat with us</p>
           <RiWhatsappLine className="w-full h-full p-2 md:w-12 " />
         </a>
         <div
@@ -49,7 +49,7 @@ export default function Home() {
         </div>
         <div
           id="about"
-          className="flex flex-col lg:flex-row min-h-screen bg-white px-4 lg:mx-28 lg:gap-12 lg:min-h-screen py-12 lg:items-center" 
+          className="flex flex-col lg:flex-row min-h-screen bg-white px-4 lg:mx-28 lg:gap-12 lg:min-h-screen py-12 lg:items-center"
         >
           <section className="flex flex-col gap-3 py-4 lg:flex-1">
             <h3 className="font-bold text-primary text-2xl">ABOUT US</h3>
@@ -146,19 +146,19 @@ export default function Home() {
               </div>
             </Fade>
           </div>
-            <section className="w-full flex flex-col gap-2.5 justify-center items-center text-center p-4 my-4">
-              <h4 className="text-primary text-3xl">Want to see more?</h4>
-              <p className="text-primary text-xl">
-               We have more than 40.000 products
-              </p>
-              <a
-                className="bg-primary p-4 rounded-lg px-16 text-2xl w-full md:max-w-[380px]"
-                href="/global-food-bussiness-catalogue.pdf"
-                download
-              >
-                See our catalog
-              </a>
-            </section>
+          <section className="w-full flex flex-col gap-2.5 justify-center items-center text-center p-4 my-4">
+            <h4 className="text-primary text-3xl">Want to see more?</h4>
+            <p className="text-primary text-xl">
+              We have more than 40.000 products
+            </p>
+            <a
+              className="bg-primary p-4 rounded-lg px-16 text-2xl w-full md:max-w-[380px]"
+              href="/global-food-bussiness-catalogue.pdf"
+              download
+            >
+              See our catalog
+            </a>
+          </section>
         </div>
         <section
           id="porque-nosotros"
@@ -224,7 +224,7 @@ export default function Home() {
               products and extracts
             </div>
             <div className="text-white text-md font-normal">
-            sales@foodproducts.com.ar            
+              sales@foodproducts.com.ar
             </div>
           </div>
           <div className="flex-col justify-start items-start gap-8 inline-flex">
@@ -271,7 +271,7 @@ export default function Home() {
               🇦🇷 Argentina
             </div>
             <div className="h-[34px] text-white text-md font-normal">
-            J.L. suarez 1076 CABA             
+              J.L. suarez 1076 CABA
             </div>
             <div className="text-white text-md font-normal">
               +54 9 11 6442-6439
