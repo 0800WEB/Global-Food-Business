@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
     
-      <header className="bg-white h-[10vh] flex justify-start relative p-4 lg:px-32">
+      <header className="bg-white h-[10vh] flex justify-start relative sm:p-4 lg:px-32 py-1 px-4">
         {/* <nav className="w-full flex justify-center items-center">
           <ul className="text-primary flex gap-4 text-xl justify-center items-center">
             <li>LOGO</li>
@@ -21,8 +21,8 @@ export default function Home() {
           </ul>
         </nav> */}
         <div className='flex gap-4 items-center justify-center'>
-          <img src="/imgs/logo.png"/>
-          <p className='font-bold text-xl'>GLOBAL FOOD BUSINESS</p>
+          <img src="/imgs/logo.png" className='max-h-full'/>
+          <p className='font-bold text-xl hidden sm:inline'>GLOBAL FOOD BUSINESS</p>
         </div>
         <Navbar />
       </header>
