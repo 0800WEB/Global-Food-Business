@@ -36,7 +36,7 @@ export default function Home() {
         </a>
         <div
           id="home"
-          className="min-h-[90vh] flex justify-center items-center bg-[url('/imgs/home-bg.jpg')] bg-cover p-4 w-full"
+          className="min-h-[90vh] flex justify-center items-center bg-[url('/imgs/home-bg.jpeg')] bg-cover p-4 w-full"
         >
           <Fade className="w-full">
             <section className="flex flex-col gap-2.5 text-white w-full max-w-[32rem] lg:mx-28">
