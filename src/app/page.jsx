@@ -1,13 +1,16 @@
 "use client";
+import { Metadata } from 'next'
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { RiWhatsappLine } from "react-icons/ri";
 import Navbar from "./components/Navbar";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+
 export default function Home() {
   return (
     <>
-      <header className="bg-white h-[10vh] flex justify-center relative">
+    
+      <header className="bg-white h-[10vh] flex justify-start relative p-4 lg:px-32">
         {/* <nav className="w-full flex justify-center items-center">
           <ul className="text-primary flex gap-4 text-xl justify-center items-center">
             <li>LOGO</li>
@@ -17,12 +20,16 @@ export default function Home() {
             <li>Contact</li>
           </ul>
         </nav> */}
+        <div className='flex gap-4 items-center justify-center'>
+          <img src="/imgs/logo.png"/>
+          <p className='font-bold text-xl'>GLOBAL FOOD BUSINESS</p>
+        </div>
         <Navbar />
       </header>
       <main className="flex min-h-screen flex-col items-center justify-between">
         <a
           href="https://wa.link/2ybboi"
-          className="fixed bottom-4 right-4 z-10 text-white w-12 h-12 sm:w-24 sm:h-24 md:w-auto bg-[#27d045] rounded-full flex items-center md:h-auto md:px-4 md:py-2 md:gap-1"
+          className="fixed bottom-4 right-4 lg:right-32 z-10 text-white w-12 h-12 sm:w-24 sm:h-24 md:w-auto bg-[#27d045] rounded-full flex items-center md:h-auto md:px-4 md:py-2 md:gap-1"
         >
           <p className="hidden md:inline font-bold">Chat with us</p>
           <RiWhatsappLine className="w-full h-full p-2 md:w-12 " />

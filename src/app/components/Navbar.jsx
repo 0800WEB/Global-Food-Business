@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <button onClick={toggleMenu} className={`absolute z-20 top-1/2 -translate-y-1/2 right-4 flex items-center justify-center w-[50px] h-[50px] transform transition-all duration-300 ${isOpen ? 'rotate-45' : ''} `}>
+      <button onClick={toggleMenu} className={`absolute z-20 top-1/2 -translate-y-1/2 right-4 lg:right-32 flex items-center justify-center w-[50px] h-[50px] transform transition-all duration-300 ${isOpen ? 'rotate-45' : ''} `}>
         <div className="relative flex flex-col justify-center items-center">
           <div className={`bg-black h-[3px] w-[28px] transform transition-all duration-300 ${isOpen ? 'translate-y-[1px] bg-white' : 'mb-[5px]'}`}></div>
           <div className={`bg-black h-[3px] w-[28px] transform transition-all duration-300 ${isOpen ? '-rotate-90 -translate-y-[1px] bg-white' : ''}`}></div>
