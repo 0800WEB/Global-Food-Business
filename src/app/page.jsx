@@ -127,7 +127,17 @@ export default function Home() {
                 </div>
                 <div className="relative p-6 px-6 py-14 md:px-12">
                   <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
-                    Beans
+                    Chickpeas
+                  </h2>
+                </div>
+              </div>
+              <div className="relative grid h-[20rem] w-full max-w-[28rem] flex-col sm:flex-1 items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+                <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('/imgs/red-porot.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
+                  <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
+                </div>
+                <div className="relative p-6 px-6 py-14 md:px-12">
+                  <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
+                    Raisins
                   </h2>
                 </div>
               </div>
@@ -137,17 +147,7 @@ export default function Home() {
                 </div>
                 <div className="relative p-6 px-6 py-14 md:px-12">
                   <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
-                    Peas
-                  </h2>
-                </div>
-              </div>
-              <div className="relative grid h-[20rem] w-full max-w-[28rem] flex-col sm:flex-1 items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-                <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('/imgs/maiz.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
-                  <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
-                </div>
-                <div className="relative p-6 px-6 py-14 md:px-12">
-                  <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
-                    Corn
+                    Beans
                   </h2>
                 </div>
               </div>
@@ -155,9 +155,6 @@ export default function Home() {
           </div>
           <section className="w-full flex flex-col gap-2.5 justify-center items-center text-center p-4 my-4">
             <h4 className="text-primary text-3xl">Want to see more?</h4>
-            <p className="text-primary text-xl">
-              We have more than 40.000 products
-            </p>
             <a
               className="bg-primary p-4 rounded-lg px-16 text-2xl w-full md:max-w-[380px]"
               href="/global-food-bussiness-catalogue.pdf"
